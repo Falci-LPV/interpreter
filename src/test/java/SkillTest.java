@@ -8,7 +8,7 @@ class SkillTest {
         skill.setDanoBase(100.0);
         skill.setDanoCritico(1.25);
         skill.setDanoElemental(1000.0);
-        skill.setDanoFísico(900.0);
+        skill.setDanoFisico(900.0);
 
         assertEquals(2500.0, skill.calcularDano());
     }

@@ -2,7 +2,7 @@ public class Skill {
     private double danoBase;
     private double danoCritico;
     private double danoElemental;
-    private double danoFísico;
+    private double danoFisico;
 
     public double getDanoBase() {
         return danoBase;
@@ -28,15 +28,15 @@ public class Skill {
         this.danoElemental = danoElemental;
     }
 
-    public double getDanoFísico() {
-        return danoFísico;
+    public double getDanoFisico() {
+        return danoFisico;
     }
 
-    public void setDanoFísico(double danoFísico) {
-        this.danoFísico = danoFísico;
+    public void setDanoFisico(double danoFisico) {
+        this.danoFisico = danoFisico;
     }
 
     public double calcularDano() {
-        return DanoSkill.calcularDano(this.danoBase, this.danoCritico, this.danoElemental, this.danoFísico);
+        return DanoSkill.calcularDano(this.danoBase, this.danoCritico, this.danoElemental, this.danoFisico);
     }
 }
